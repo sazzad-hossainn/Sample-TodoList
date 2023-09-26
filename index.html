@@ -1,0 +1,83 @@
+
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Trigger Button Click on Enter</h3>
+<p>Press the "Enter" key inside the input field to trigger the button.</p>
+
+<input id="myInput" value="Some text..">
+<button id="myBtn" onclick="javascript:alert('Hello World!')">Button</button>
+
+<script>
+var input = document.getElementById("myInput");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("myBtn").click();
+  }
+});
+</script>
+
+</body>
+</html>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="icon" type="image/x-icon" href="image/LKaXU.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+  
+<div class="container">
+<div class="todo-app">
+<h2>To-Do List </h2>
+<div class="row">
+    <input type="text" id="input-box" placeholder="  Add your task!">
+    <button onclick="addTask()"><i class="fa-solid fa-plus"></i></button>
+    
+</div>
+<ul id="list-container">
+   <!-- <li class="checked">Task 1</li>
+    <li>Task 2</li>
+    <li>Task 3</li> -->
+ </ul>
+</div>
+
+</div>
+   <script src="js/script.js"></script>
+</body>
+</html> 
